@@ -1,0 +1,1 @@
+xmledit.vba: call delete('/home/matt/.vim/ftplugin/xml.vim')|call delete('/home/matt/.vim/doc/xml-plugin.txt')
