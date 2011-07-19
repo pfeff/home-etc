@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/matt'
-let g:netrw_dirhist_2='/home/matt/Documents'
-let g:netrw_dirhist_3='/home/matt/Documents/Source'
-let g:netrw_dirhist_4='/home/matt/Documents/p4/msg/v3/3.0/latest/com.smobilesystems.core'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/matt/Downloads/picketlink/idp.war.d/WEB-INF'
+let g:netrw_dirhist_2='/home/matt/Downloads/picketlink/sales.war.d'
+let g:netrw_dirhist_3='/home/matt/Downloads/picketlink/sales.war.d/WEB-INF'
+let g:netrw_dirhist_4='/home/matt/Downloads/picketlink/sales.war.d'
+let g:netrw_dirhist_5='/home/matt/Downloads/picketlink/sales.war.d/WEB-INF'
+let g:netrw_dirhist_6='/home/matt/.vim'
