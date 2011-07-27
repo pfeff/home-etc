@@ -1,0 +1,18 @@
+<enter description here>
+
+Reviewed by <P4ID>.
+Approved by manager <P4ID>.
+
+===== put your comment above this line =====
+
+PR(s): PR1, PR2, ...
+
+Resolved: <Y/N/C>
+
+Cust-Visible-Behavior-Changed: <Y/N>
+
+Fix-Risk-Level: <L/M/H>
+
+Root-Cause-Analysis:
+<enter root-cause-analysis here>
+
