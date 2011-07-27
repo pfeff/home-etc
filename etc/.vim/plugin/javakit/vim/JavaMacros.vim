@@ -25,7 +25,7 @@ command! Html silent call <SID>AppletHtmlFile()
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ca mr     silent\ !java %:t:r
 ia Sop    System.out.println
-ia echo   System.out.println
+"ia echo   System.out.println
 ia cnull  <code>null</code>
 ia ctrue  <code>true</code>
 ia cfalse <code>false</code>
