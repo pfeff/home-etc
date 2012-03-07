@@ -1,0 +1,3 @@
+[submodule "etc/.vim/bundle/JavaScript-Indent"]
+	path = etc/.vim/bundle/JavaScript-Indent
+	url = git://github.com/vim-scripts/JavaScript-Indent.git
