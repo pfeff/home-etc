@@ -13,3 +13,6 @@
 [submodule "etc/.vim/bundle/java"]
 	path = etc/.vim/bundle/java
 	url = git://github.com/vim-scripts/java.vim.git
+[submodule "etc/.vim/bundle/slime"]
+	path = etc/.vim/bundle/slime
+	url = https://github.com/jpalardy/vim-slime
