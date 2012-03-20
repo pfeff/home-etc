@@ -1,3 +1,6 @@
 [submodule "etc/.vim/bundle/JavaScript-Indent"]
 	path = etc/.vim/bundle/JavaScript-Indent
 	url = git://github.com/vim-scripts/JavaScript-Indent.git
+[submodule "etc/.vim/bundle/vjde"]
+	path = etc/.vim/bundle/vjde
+	url = https://github.com/cespare/vjde.git
