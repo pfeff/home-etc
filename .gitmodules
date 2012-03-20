@@ -10,3 +10,6 @@
 [submodule "etc/.vim/bundle/aj"]
 	path = etc/.vim/bundle/aj
 	url = https://github.com/vim-scripts/aj.vim.git
+[submodule "etc/.vim/bundle/java"]
+	path = etc/.vim/bundle/java
+	url = git://github.com/vim-scripts/java.vim.git
