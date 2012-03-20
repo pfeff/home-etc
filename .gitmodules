@@ -7,3 +7,6 @@
 [submodule "etc/.vim/bundle/Doxia-APT"]
 	path = etc/.vim/bundle/Doxia-APT
 	url = git@github.com:pfeff/Doxia-APT.git
+[submodule "etc/.vim/bundle/aj"]
+	path = etc/.vim/bundle/aj
+	url = https://github.com/vim-scripts/aj.vim.git
