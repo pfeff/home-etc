@@ -28,3 +28,6 @@
 [submodule "etc/.vim/bundle/vim-powerline"]
 	path = etc/.vim/bundle/vim-powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "etc/.vim/bundle/vim-repeat"]
+	path = etc/.vim/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
