@@ -24,6 +24,13 @@ set noswapfile
 set list
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set pastetoggle=<F2>
+set number
+set ignorecase
+set smartcase
+set scrolloff=3
+
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
 
 " filetype plugin
 filetype plugin on
@@ -100,7 +107,7 @@ syntax on
 let java_highlight_all=1
 let java_highlight_functions="style"
 let java_allow_cpp_keywords=1
-source $HOME/.vim/plugin/javakit/vim/JavaKit.vim
+"source $HOME/.vim/plugin/javakit/vim/JavaKit.vim
 
 let Checkstyle_Classpath = '/usr/share/java/checkstyle.jar'
 
@@ -114,7 +121,8 @@ map <F4> :TlistToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Pathogen
 """"""""""""""""""""""""""""""""""""""""""""""""""
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
+call pathogen#helptags()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Solarized
@@ -122,4 +130,10 @@ call pathogen#runtime_append_all_bundles()
 "syntax enable
 "set background=dark
 "colorscheme solarized
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Clojure
+""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:clj_hightlight_builtins=1
+let vimclojure#ParenRainbow=1
 
