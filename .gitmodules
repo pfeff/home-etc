@@ -3,19 +3,16 @@
 	url = git://github.com/vim-scripts/JavaScript-Indent.git
 [submodule "etc/.vim/bundle/vjde"]
 	path = etc/.vim/bundle/vjde
-	url = https://github.com/cespare/vjde.git
+	url = git://github.com/cespare/vjde.git
 [submodule "etc/.vim/bundle/Doxia-APT"]
 	path = etc/.vim/bundle/Doxia-APT
 	url = git@github.com:pfeff/Doxia-APT.git
 [submodule "etc/.vim/bundle/aj"]
 	path = etc/.vim/bundle/aj
-	url = https://github.com/vim-scripts/aj.vim.git
-[submodule "etc/.vim/bundle/java"]
-	path = etc/.vim/bundle/java
-	url = git://github.com/vim-scripts/java.vim.git
+	url = http://github.com/vim-scripts/aj.vim.git
 [submodule "etc/.vim/bundle/slime"]
 	path = etc/.vim/bundle/slime
-	url = https://github.com/jpalardy/vim-slime
+	url = git://github.com/jpalardy/vim-slime.git
 [submodule "etc/.vim/bundle/bufkill"]
 	path = etc/.vim/bundle/bufkill
 	url = http://github.com/vim-scripts/bufkill.vim.git
@@ -37,3 +34,6 @@
 [submodule "etc/.vim/bundle/xmledit"]
 	path = etc/.vim/bundle/xmledit
 	url = git://github.com/vim-scripts/xmledit.git
+[submodule "etc/.vim/bundle/java"]
+	path = etc/.vim/bundle/java
+	url = git://github.com/vim-scripts/java.vim.git
