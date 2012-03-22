@@ -1,0 +1,11 @@
+caption string "%?%F%{= Bk}%? %C%A %D %d-%m-%Y %{= kB} %t%= %?%F%{= Bk}%:%{= wk}%? %n "
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+autodetach on
+defscrollback 30000
+startup_message off
+
+# Enables scrolling
+termcapinfo xterm|xterms|xterm-color|xs|gnome-terminal|vt* ti@:te@=\E[2J
+
+
