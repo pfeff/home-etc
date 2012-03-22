@@ -16,3 +16,6 @@
 [submodule "etc/.vim/bundle/slime"]
 	path = etc/.vim/bundle/slime
 	url = https://github.com/jpalardy/vim-slime
+[submodule "etc/.vim/bundle/bufkill"]
+	path = etc/.vim/bundle/bufkill
+	url = http://github.com/vim-scripts/bufkill.vim.git
