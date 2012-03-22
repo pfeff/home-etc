@@ -1,0 +1,15 @@
+snippet xml
+	<?xml version="1.0"?>
+
+snippet import
+	<xsd:import namespace="${1:namespace}" schemaLocation="${2:location}" />
+
+snippet schema
+	<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				targetNamespace="${1:}"
+				xmlns="${1}"
+				elementFormDefault="unqualified">
+		${2}
+	</xsd:schema>
+
+
