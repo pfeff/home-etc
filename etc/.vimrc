@@ -29,6 +29,8 @@ set ignorecase
 set smartcase
 set scrolloff=3
 
+"colorscheme zenburn
+
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
@@ -134,6 +136,8 @@ call pathogen#helptags()
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Clojure
 """"""""""""""""""""""""""""""""""""""""""""""""""
-let g:clj_hightlight_builtins=1
-let vimclojure#ParenRainbow=1
+let g:vimclojure#HighlightBuiltins=1
+let g:vimclojure#ParenRainbow=1
+let g:vimclojure#DynamicHighlighting=1
+
 
