@@ -37,3 +37,6 @@
 [submodule "etc/.vim/bundle/java"]
 	path = etc/.vim/bundle/java
 	url = git://github.com/vim-scripts/java.vim.git
+[submodule "etc/.vim/bundle/VimClojure"]
+	path = etc/.vim/bundle/VimClojure
+	url = git://github.com/vim-scripts/VimClojure.git
