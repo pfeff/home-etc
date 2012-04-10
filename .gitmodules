@@ -43,3 +43,6 @@
 [submodule "etc/.vim/bundle/screen"]
 	path = etc/.vim/bundle/screen
 	url = git://github.com/vim-scripts/Screen-vim---gnu-screentmux.git
+[submodule "etc/.vim/bundle/vim-javascript"]
+	path = etc/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
