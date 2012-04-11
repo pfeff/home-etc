@@ -46,3 +46,6 @@
 [submodule "etc/.vim/bundle/vim-javascript"]
 	path = etc/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "etc/.vim/bundle/nerdtree"]
+	path = etc/.vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
