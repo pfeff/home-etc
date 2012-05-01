@@ -49,3 +49,6 @@
 [submodule "etc/.vim/bundle/nerdtree"]
 	path = etc/.vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "etc/.vim/bundle/vimoutliner"]
+	path = etc/.vim/bundle/vimoutliner
+	url = git://github.com/vimoutliner/vimoutliner.git
