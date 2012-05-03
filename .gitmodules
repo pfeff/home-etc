@@ -52,3 +52,6 @@
 [submodule "etc/.vim/bundle/vimoutliner"]
 	path = etc/.vim/bundle/vimoutliner
 	url = git://github.com/vimoutliner/vimoutliner.git
+[submodule "etc/.vim/bundle/vim-align"]
+	path = etc/.vim/bundle/vim-align
+	url = git://github.com/tsaleh/vim-align.git
