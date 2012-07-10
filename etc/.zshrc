@@ -21,7 +21,7 @@ ZSH_THEME="tjkirch"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(vi-mode python)
+plugins=(git python yum)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -37,3 +37,5 @@ bindkey -M vicmd v edit-command-line
 
 source ~/.zshlocal
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

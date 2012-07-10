@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/matt/code/node/app1/spec'
+let g:netrw_dirhist_2='/home/matt/code/node/app1'
+let g:netrw_dirhist_3='/home/matt/code/node/app1/spec'
+let g:netrw_dirhist_4='/home/matt/code/node/app1/node_modules/jquery'
+let g:netrw_dirhist_5='/home/matt/code/node/app1/node_modules/jasmine-jquery/spec/suites'
+let g:netrw_dirhist_6='scp://mpfefferle_d20/'

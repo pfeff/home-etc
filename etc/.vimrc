@@ -46,7 +46,7 @@ autocmd! bufwritepost vimrc source ~/.vimrc
 " Remap some built ins...
 let mapleader = ","
 let g:mapleader = ","
-nnoremap ; :
+"nnoremap ; :
 vmap Q gq
 nmap Q gqap
 
@@ -139,5 +139,6 @@ call pathogen#helptags()
 let g:vimclojure#HighlightBuiltins=1
 let g:vimclojure#ParenRainbow=1
 let g:vimclojure#DynamicHighlighting=1
+let g:slime_target = "tmux"
 
 
