@@ -58,3 +58,6 @@
 [submodule "etc/.vim/bundle/vim-fugitive"]
 	path = etc/.vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "etc/.vim/bundle/Align"]
+	path = etc/.vim/bundle/Align
+	url = git://github.com/vim-scripts/Align.git
