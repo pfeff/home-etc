@@ -29,7 +29,7 @@ set ignorecase
 set smartcase
 set scrolloff=3
 
-colorscheme zenburn
+colorscheme desert
 
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
