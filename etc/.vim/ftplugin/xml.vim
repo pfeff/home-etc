@@ -39,6 +39,35 @@ endif
 let b:last_wrap_tag_used = ""
 let b:last_wrap_atts_used = ""
 
+""""""""""""""""""""""""""""""""""""""""
+" XML
+""""""""""""""""""""""""""""""""""""""""
+map <leader>x :set filetype=xml<CR>
+	\:source $VIMRUNTIME/syntax/xml.vim
+	\:set foldmethod=syntax<CR>
+  	\:source $VIMRUNTIME/syntax/syntax.vim<CR>
+  	\:colors peachpuff<CR>
+  	\:source $HOME/.vim/ftplugin/xml.vim<CR>
+  	\:iunmap <buffer> <leader>.<CR>
+  	\:iunmap <buffer> <leader>><CR>
+  	\:inoremap \> ><CR>
+  	\:echo "XML mode is on"<CR>
+  	" no imaps for <leader>
+  	"\:inoremap \. ><CR>
+
+" catalog should be set up
+nmap <leader>l <leader>cd:%w !xmllint --valid --noout -<CR>
+nmap <leader>r <leader>cd:%w !rxp -V -N -s -x<CR>
+nmap <leader>d4 :%w !xmllint --dtdvalid 
+  \ "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd"
+  \ --noout -<CR>
+
+vmap <leader>px !xmllint --format -<CR>
+nmap <leader>px !!xmllint --format -<CR>
+nmap <leader>pxa :%!xmllint --format -<CR>
+
+nmap <leader>i :%!xsltlint<CR>
+
 " WrapTag -> Places an XML tag around a visual selection.            {{{1
 " Brad Phelan: Wrap the argument in an XML tag
 " Added nice GUI support to the dialogs. 
