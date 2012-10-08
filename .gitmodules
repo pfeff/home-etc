@@ -61,9 +61,3 @@
 [submodule "etc/.vim/bundle/Align"]
 	path = etc/.vim/bundle/Align
 	url = git://github.com/vim-scripts/Align.git
-[submodule "etc/.vim/bundle/yasnippets"]
-	path = etc/.vim/bundle/yasnippets
-	url = git://github.com/vim-scripts/yasnippets.git
-[submodule "etc/.vim/bundle/imaps"]
-	path = etc/.vim/bundle/imaps
-	url = git://github.com/vim-scripts/imaps.vim.git
