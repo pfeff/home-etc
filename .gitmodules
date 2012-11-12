@@ -61,3 +61,6 @@
 [submodule "etc/.vim/bundle/Align"]
 	path = etc/.vim/bundle/Align
 	url = git://github.com/vim-scripts/Align.git
+[submodule "etc/.vim/bundle/AutoComplePop"]
+	path = etc/.vim/bundle/AutoComplePop
+	url = git://github.com/vim-scripts/AutoComplPop.git
