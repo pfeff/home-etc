@@ -64,3 +64,6 @@
 [submodule "etc/.vim/bundle/AutoComplePop"]
 	path = etc/.vim/bundle/AutoComplePop
 	url = git://github.com/vim-scripts/AutoComplPop.git
+[submodule "etc/.vim/bundle/SuperTab"]
+	path = etc/.vim/bundle/SuperTab
+	url = git://github.com/vim-scripts/SuperTab-continued..git
